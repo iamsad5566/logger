@@ -1,4 +1,4 @@
-module logger
+module github.com/iamsad5566/logger
 
 go 1.21.1
 
