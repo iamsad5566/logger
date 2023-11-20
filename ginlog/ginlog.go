@@ -25,7 +25,6 @@ type logConfig struct {
 	MaxSize    int    `json:"maxsize"`
 	MaxAge     int    `json:"max_age"`
 	MaxBackups int    `json:"max_backups"`
-	Version    string `json:"version"`
 }
 
 func InitLogger(cfg any) (err error) {
